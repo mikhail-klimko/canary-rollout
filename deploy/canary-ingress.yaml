@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx-public
   rules:
-  - host: canary.rnd.sandbox.codefresh.io
+  - host: mikhail-canary.rnd.sandbox.codefresh.io
     http:
       paths:
       - path: /
